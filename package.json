@@ -1,27 +1,17 @@
 {
-  "name": "nuxt-app",
-  "type": "module",
+  "name": "since-then",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
-  },
-  "devDependencies": {
-    "@antfu/eslint-config": "^2.18.1",
-    "@nuxt/ui": "^2.16.0",
-    "@nuxtjs/color-mode": "^3.4.1",
-    "@unocss/nuxt": "^0.60.3",
-    "@vueuse/nuxt": "^10.9.0",
-    "eslint": "^9.3.0"
   }
 }
