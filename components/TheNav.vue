@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <nav flex class="text-sm">
-        <div>SinceThen</div>
+    <nav flex>
+        <div color-blue>SinceThen</div>
         <div>darkmode</div>
         <div>github</div>
     </nav>
